@@ -4,4 +4,6 @@ $conf{'backup_dest'} = 'b00000@hanjin.dreamhost.com:backup';
 $conf{'rsync_path'} = '/usr/bin/rsync';
 $conf{'sftp_path'} = '/usr/bin/sftp';
 
+$conf{'private_key'} = "$conf{'basedir'}/id_rsa";
+
 return 1;
